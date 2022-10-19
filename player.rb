@@ -14,10 +14,8 @@ class Player
     @lives -= 1
     if @lives > 1
       p "#{@name} was wrong. They now have #{@lives} lives left. "
-    end
-    elsif @lives = 1
+    elsif @lives === 1
       p "#{@name} was wrong. They have #{@lives} life left."
     end
   end
-
 end
